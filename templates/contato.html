@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}<title>Contato</title>{% endblock %}
+{% block styles %}
+    <style>
+        .texto {
+        margin-top: 10px;
+        margin-left: 300px;
+        width: 910px;
+      }
+      .direitos {
+        margin-left: 40%;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .form:input {
+        margin-bottom: 50px;
+        width: 910px;}
+    </style>
+{% endblock %}
+{% block content %}
+    <div class="texto">
+        <h1>Entre em Contato</h1>
+        <p>Excepteur et enim esse deserunt velit nulla elit tempor.</p>
+        <div class="form">
+            <p>Nome:</p>
+            <input type="text" placeholder="Nome">
+            <p>Assunto:</p>
+            <input type="text" placeholder="Nome">
+            <p>Descrição:</p>
+            <input type="text" placeholder="Nome"> <br> <br>
+            <button>Enviar</button>
+        </div>
+    </div>
+{% endblock %}

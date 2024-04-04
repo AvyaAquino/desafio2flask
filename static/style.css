@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navtxt {
+    float: right;
+    margin-top: 40px;
+    margin-right: 277px;
+}
+.navimg {
+    margin-left: 296px;
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }

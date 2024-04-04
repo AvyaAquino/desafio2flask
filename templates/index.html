@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}<title>Home</title>{% endblock %}
+{% block styles %}
+    <style>
+      .imgcont {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-left: 150px;
+        width: 1000px;
+        height: 415px;
+      }
+
+      .texto {
+        margin-top: 10px;
+        margin-left: 300px;
+        width: 910px;
+      }
+      .direitos {
+        margin-left: 40%;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    </style>
+{% endblock %}
+{% block content %}
+    <div class="imgcont">
+      <img src="static/imagens/capa.png" alt="capa" class="imgcont" />
+    </div>
+    <div class="texto">
+      <h1>Sobre a Unversidade</h1>
+      <p>
+        Anim non veniam fugiat veniam pariatur incididunt ad veniam laboris
+        reprehenderit eu ut. Excepteur amet ex magna labore ad culpa adipisicing
+        Lorem deserunt ut. Ipsum aliquip consequat ea velit aliqua ut
+        exercitation reprehenderit sunt aliqua voluptate. Lorem sunt voluptate
+        amet culpa eiusmod commodo nisi ipsum aute dolore exercitation occaecat.
+        Ex ea anim pariatur officia qui laborum ullamco duis enim ea quis. Ut
+        anim pariatur do ipsum duis cupidatat consectetur est cillum do Lorem
+        irure.
+      </p>
+      <p>
+        Duis laborum sit incididunt tempor dolor adipisicing pariatur minim
+        occaecat ut culpa officia aliqua occaecat. In irure non magna culpa
+        magna. Proident anim non ea et consequat do dolore aliqua non. Aliquip
+        ullamco consectetur et excepteur enim adipisicing est.
+      </p>
+    </div>
+{% endblock %}
+
